@@ -153,7 +153,7 @@
 	"waitFor": "onCreateCommand",
 	"updateContentCommand": "npm install",
 	"postStartCommand": "git config --global pull.rebase false",
-	"postAttachCommand": "gh codespace ports visibility 5173:public -c $CODESPACE_NAME && npm run dev"
+	"postAttachCommand": "gh codespace ports visibility 3000:public -c $CODESPACE_NAME && npm run dev"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
